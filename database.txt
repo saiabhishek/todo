@@ -1,0 +1,13 @@
+Database Name: dbtest
+Tabel 1:
+Name: users
+columns name  type   
+user_name 	varchar(25)
+user_email   varchar(35) unique
+user_pass    varchar(35)
+user_id       bigint(30) unique
+Name: todomain
+id       	varchar(25) unique
+Data1	   varchar(35)
+time1      varchar(35)
+user_id1   bigint(30) 
